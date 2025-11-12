@@ -153,7 +153,81 @@
         "20": {
           "$type": "fontSizes",
           "$value": "20"
+        },
+        "24": {
+          "$type": "fontSizes",
+          "$value": "24"
         }
+      },
+      "spacing": {
+        "20": {
+          "$type": "spacing",
+          "$value": "20"
+        },
+        "30": {
+          "$type": "spacing",
+          "$value": "30"
+        }
+      },
+      "borderradius": {
+        "1": {
+          "$type": "borderRadius",
+          "$value": "1"
+        },
+        "2": {
+          "$type": "borderRadius",
+          "$value": "2"
+        },
+        "3": {
+          "$type": "borderRadius",
+          "$value": "3"
+        },
+        "5": {
+          "$type": "borderRadius",
+          "$value": "5"
+        },
+        "10": {
+          "$type": "borderRadius",
+          "$value": "10"
+        },
+        "15": {
+          "$type": "borderRadius",
+          "$value": "15"
+        },
+        "20": {
+          "$type": "borderRadius",
+          "$value": "20"
+        }
+      },
+      "fontweight": {
+        "100": {
+          "$type": "fontWeights",
+          "$value": "100"
+        },
+        "200": {
+          "$type": "fontWeights",
+          "$value": "200"
+        },
+        "300": {
+          "$type": "fontWeights",
+          "$value": "300"
+        }
+      },
+      "borderWidth": {
+        "$type": "borderWidth",
+        "$value": "4"
+      },
+      "border": {
+        "$type": "border",
+        "$value": {
+          "color": "#154273",
+          "width": "10",
+          "style": "solid"
+        }
+      },
+      "opacity": {
+        "$type": "opacity",
+        "$value": "50"
       }
     },
     "TSO": {
@@ -172,6 +246,14 @@
       "1rem": {
         "$type": "sizing",
         "$value": "1rem"
+      },
+      "2rem": {
+        "$type": "sizing",
+        "$value": "2rem"
+      },
+      "1em": {
+        "$type": "sizing",
+        "$value": "1em"
       }
     }
   },
