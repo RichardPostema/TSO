@@ -140,6 +140,38 @@
             "$value": "#E17000"
           }
         }
+      },
+      "rijkssans": {
+        "$type": "fontFamilies",
+        "$value": "sans"
+      },
+      "fontsize": {
+        "16": {
+          "$type": "fontSizes",
+          "$value": "16"
+        },
+        "20": {
+          "$type": "fontSizes",
+          "$value": "20"
+        }
+      }
+    },
+    "TSO": {
+      "100": {
+        "$type": "sizing",
+        "$value": "100"
+      },
+      "200": {
+        "$type": "sizing",
+        "$value": "200"
+      },
+      "300": {
+        "$type": "sizing",
+        "$value": "300"
+      },
+      "1rem": {
+        "$type": "sizing",
+        "$value": "1rem"
       }
     }
   },
