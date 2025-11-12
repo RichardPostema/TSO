@@ -3,21 +3,141 @@
     "tso": {
       "color": {
         "lintblauw": {
+          "100": {
+            "$type": "color",
+            "$value": "#B8C6D5"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#738EAB"
+          },
           "500": {
             "$type": "color",
             "$value": "#154273"
           }
         },
+        "zwart": {
+          "500": {
+            "$type": "color",
+            "$value": "#000"
+          }
+        },
+        "wit": {
+          "500": {
+            "$type": "color",
+            "$value": "#fff"
+          }
+        },
+        "grijs": {
+          "100": {
+            "$type": "color",
+            "$value": "#F1F5F9"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#CBD5E1"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#64748B"
+          }
+        },
         "donkergroen": {
+          "100": {
+            "$type": "color",
+            "$value": "#BDCDC2"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#7D9B87"
+          },
           "500": {
             "$type": "color",
             "$value": "#275937"
           }
         },
         "donkerpaars": {
+          "100": {
+            "$type": "color",
+            "$value": "#C6B8CE"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#8D729F"
+          },
           "500": {
             "$type": "color",
             "$value": "#42145F"
+          }
+        },
+        "donkerblauw": {
+          "100": {
+            "$type": "color",
+            "$value": "#B2D1E1"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#66A4C3"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#01689B"
+          }
+        },
+        "donkerbruin": {
+          "100": {
+            "$type": "color",
+            "$value": "#D1C1BD"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#A3847D"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#673327"
+          }
+        },
+        "donkergeel": {
+          "100": {
+            "$type": "color",
+            "$value": "#FEE9B7"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#FDD370"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#FFB612"
+          }
+        },
+        "rood": {
+          "100": {
+            "$type": "color",
+            "$value": "#F2BFBB"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#E67F78"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#D52B1E"
+          }
+        },
+        "oranje": {
+          "100": {
+            "$type": "color",
+            "$value": "#F6D4B2"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#EDA966"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#E17000"
           }
         }
       }
