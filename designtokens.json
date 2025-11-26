@@ -139,12 +139,6 @@
             "$type": "color",
             "$value": "#E17000"
           }
-        },
-        "accent": {
-          "button": {
-            "$type": "asset",
-            "$value": "{tso.color.donkergroen.500}"
-          }
         }
       },
       "typography": {
@@ -496,6 +490,24 @@
           "$value": "1em"
         }
       },
+      "unsplash": {
+        "unsplash": {
+          "image": {
+            "1": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1762487283482-840943bd5180?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "2": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1762211640352-2fe3f7a30f10?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "3": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1693225745961-9b7055e92562?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+          }
+        }
+      },
       "letter-spacing": {
         "0": {
           "$type": "letterSpacing",
@@ -550,11 +562,29 @@
         },
         "90": {
           "$type": "number",
-          "$value": -90
+          "$value": "-90"
         },
         "300": {
           "$type": "number",
           "$value": "300"
+        }
+      },
+      "bezienswaardigheden": {
+        "nederland": {
+          "image": {
+            "1": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1661964032747-d08ef40d4083?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "2": {
+              "$type": "asset",
+              "$value": "https://images.unsplash.com/photo-1587550495462-1ef563e9bf22?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmVkZXJsYW5kJTIwa2FzdGVlbHxlbnwwfHwwfHx8MA%3D%3D"
+            },
+            "3": {
+              "$type": "asset",
+              "$value": "https://images.unsplash.com/photo-1575992127931-7e6f0f6a96c5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+          }
         }
       }
     }
