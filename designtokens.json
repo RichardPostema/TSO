@@ -196,8 +196,22 @@
           }
         },
         "text": {
-          "$type": "text",
-          "$value": "String"
+          "welcome": {
+            "$type": "text",
+            "$value": "👋 Welcome back, {tso.typography.text.jan-smit}!"
+          },
+          "bye": {
+            "$type": "text",
+            "$value": "👋 Bye, {tso.typography.text.jan-smit}!"
+          },
+          "jan-smit": {
+            "$type": "text",
+            "$value": "Jan Smit"
+          },
+          "annemieke-anders": {
+            "$type": "text",
+            "$value": "Annemieke Anders"
+          }
         }
       },
       "fontsize": {
@@ -527,6 +541,20 @@
         "false": {
           "$type": "boolean",
           "$value": "false"
+        }
+      },
+      "number": {
+        "16": {
+          "$type": "number",
+          "$value": "16"
+        },
+        "90": {
+          "$type": "number",
+          "$value": -90
+        },
+        "300": {
+          "$type": "number",
+          "$value": "300"
         }
       }
     }
