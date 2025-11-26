@@ -141,9 +141,40 @@
           }
         }
       },
-      "rijkssans": {
-        "$type": "fontFamilies",
-        "$value": "sans"
+      "typography": {
+        "font-family": {
+          "rijkssans": {
+            "$type": "fontFamilies",
+            "$value": "RijksSans, Arial, Verdana, sans-serif"
+          }
+        },
+        "font-size": {
+          "xs": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "RijksSans, Arial, Verdana, sans-serif",
+              "fontWeight": "0.75rem"
+            }
+          }
+        },
+        "line-height": {
+          "xs": {
+            "$type": "lineHeights",
+            "$value": "100%"
+          },
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "125%"
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "150%"
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "200%"
+          }
+        }
       },
       "fontsize": {
         "16": {
@@ -157,6 +188,30 @@
         "24": {
           "$type": "fontSizes",
           "$value": "24"
+        },
+        "30": {
+          "$type": "fontSizes",
+          "$value": "30"
+        },
+        "32": {
+          "$type": "fontSizes",
+          "$value": "32"
+        },
+        "36": {
+          "$type": "fontSizes",
+          "$value": "36"
+        },
+        "40": {
+          "$type": "fontSizes",
+          "$value": "40"
+        },
+        "46": {
+          "$type": "fontSizes",
+          "$value": "46"
+        },
+        "64": {
+          "$type": "fontSizes",
+          "$value": "64"
         }
       },
       "spacing": {
@@ -205,6 +260,30 @@
         "20": {
           "$type": "borderRadius",
           "$value": "20"
+        },
+        "30": {
+          "$type": "borderRadius",
+          "$value": "30"
+        },
+        "40": {
+          "$type": "borderRadius",
+          "$value": "40"
+        },
+        "50": {
+          "$type": "borderRadius",
+          "$value": "50"
+        },
+        "80": {
+          "$type": "borderRadius",
+          "$value": "80"
+        },
+        "100": {
+          "$type": "borderRadius",
+          "$value": "100"
+        },
+        "150": {
+          "$type": "borderRadius",
+          "$value": "150"
         }
       },
       "fontweight": {
@@ -322,44 +401,41 @@
           "md": {
             "$type": "dimension",
             "$value": "992px"
+          },
+          "lg": {
+            "$type": "dimension",
+            "$value": "1200px"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "1440px"
           }
         }
-      }
-    },
-    "TSO": {
-      "100": {
-        "$type": "sizing",
-        "$value": "100"
       },
-      "200": {
-        "$type": "sizing",
-        "$value": "200"
-      },
-      "300": {
-        "$type": "sizing",
-        "$value": "300"
-      },
-      "1rem": {
-        "$type": "sizing",
-        "$value": "1rem"
-      },
-      "2rem": {
-        "$type": "sizing",
-        "$value": "2rem"
-      },
-      "1em": {
-        "$type": "sizing",
-        "$value": "1em"
-      },
-      "typography": {
-        "font-size": {
-          "xs": {
-            "$type": "typography",
-            "$value": {
-              "fontFamily": "RijksSans, Arial, Verdana, sans-serif",
-              "fontWeight": "0.75rem"
-            }
-          }
+      "sizing": {
+        "100": {
+          "$type": "sizing",
+          "$value": "100"
+        },
+        "200": {
+          "$type": "sizing",
+          "$value": "200"
+        },
+        "300": {
+          "$type": "sizing",
+          "$value": "300"
+        },
+        "1rem": {
+          "$type": "sizing",
+          "$value": "1rem"
+        },
+        "2rem": {
+          "$type": "sizing",
+          "$value": "2rem"
+        },
+        "1em": {
+          "$type": "sizing",
+          "$value": "1em"
         }
       }
     }
