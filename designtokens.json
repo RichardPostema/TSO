@@ -194,6 +194,10 @@
             "$type": "textDecoration",
             "$value": "strikethrough"
           }
+        },
+        "text": {
+          "$type": "text",
+          "$value": "String"
         }
       },
       "fontsize": {
