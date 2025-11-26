@@ -139,6 +139,12 @@
             "$type": "color",
             "$value": "#E17000"
           }
+        },
+        "accent": {
+          "button": {
+            "$type": "asset",
+            "$value": "{tso.color.donkergroen.500}"
+          }
         }
       },
       "typography": {
@@ -173,6 +179,20 @@
           "lg": {
             "$type": "lineHeights",
             "$value": "200%"
+          }
+        },
+        " text-decoration": {
+          "null": {
+            "$type": "textDecoration",
+            "$value": "null"
+          },
+          "underline": {
+            "$type": "textDecoration",
+            "$value": "underline"
+          },
+          "strikethrough": {
+            "$type": "textDecoration",
+            "$value": "strikethrough"
           }
         }
       },
@@ -230,6 +250,10 @@
         "30": {
           "$type": "spacing",
           "$value": "30"
+        },
+        "50": {
+          "$type": "spacing",
+          "$value": "50"
         }
       },
       "borderradius": {
@@ -379,9 +403,25 @@
         }
       },
       "paragraphspacing": {
+        "0": {
+          "$type": "paragraphSpacing",
+          "$value": "0"
+        },
+        "5": {
+          "$type": "paragraphSpacing",
+          "$value": "5"
+        },
         "10": {
           "$type": "paragraphSpacing",
           "$value": "10"
+        },
+        "15": {
+          "$type": "paragraphSpacing",
+          "$value": "15"
+        },
+        "20": {
+          "$type": "paragraphSpacing",
+          "$value": "20"
         }
       },
       "dimension": {
@@ -436,6 +476,53 @@
         "1em": {
           "$type": "sizing",
           "$value": "1em"
+        }
+      },
+      "letter-spacing": {
+        "0": {
+          "$type": "letterSpacing",
+          "$value": "0"
+        },
+        "-2": {
+          "$type": "letterSpacing",
+          "$value": "-2%"
+        },
+        "1px": {
+          "$type": "letterSpacing",
+          "$value": "1px"
+        },
+        "1rem": {
+          "$type": "letterSpacing",
+          "$value": "1rem",
+          "$description": "16px"
+        }
+      },
+      "text-case": {
+        "null": {
+          "$type": "textCase",
+          "$value": "null"
+        },
+        "uppercase": {
+          "$type": "textCase",
+          "$value": "uppercase"
+        },
+        "lowercase": {
+          "$type": "textCase",
+          "$value": "lowercase"
+        },
+        "capitalize": {
+          "$type": "textCase",
+          "$value": "capitalize"
+        }
+      },
+      "boolean": {
+        "true": {
+          "$type": "boolean",
+          "$value": "true"
+        },
+        "false": {
+          "$type": "boolean",
+          "$value": "false"
         }
       }
     }
