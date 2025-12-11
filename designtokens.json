@@ -192,11 +192,11 @@
         "text": {
           "welcome": {
             "$type": "text",
-            "$value": "👋 Welcome back, {tso.typography.text.jan-smit}!"
+            "$value": "👋 Welcome back, {mln.typography.text.jan-smit}!"
           },
           "bye": {
             "$type": "text",
-            "$value": "👋 Bye, {tso.typography.text.jan-smit}!"
+            "$value": "👋 Bye, {mln.typography.text.jan-smit}!"
           },
           "jan-smit": {
             "$type": "text",
@@ -385,7 +385,739 @@
           "$value": {
             "x": "10",
             "y": "5",
-            "blur": "50",
+            "blur": "10",
+            "spread": "2",
+            "color": "#000000",
+            "type": "innerShadow"
+          }
+        },
+        "drop05152": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0",
+            "y": "5",
+            "blur": "15",
+            "spread": "2",
+            "color": "#000000",
+            "type": "dropShadow"
+          }
+        },
+        "drop0382": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "0",
+            "y": "3",
+            "blur": "8",
+            "spread": "2",
+            "color": "#000000",
+            "type": "dropShadow"
+          }
+        }
+      },
+      "paragraphspacing": {
+        "0": {
+          "$type": "paragraphSpacing",
+          "$value": "0"
+        },
+        "5": {
+          "$type": "paragraphSpacing",
+          "$value": "5"
+        },
+        "10": {
+          "$type": "paragraphSpacing",
+          "$value": "10"
+        },
+        "15": {
+          "$type": "paragraphSpacing",
+          "$value": "15"
+        },
+        "20": {
+          "$type": "paragraphSpacing",
+          "$value": "20"
+        }
+      },
+      "dimension": {
+        "screen": {
+          "2xs": {
+            "$type": "dimension",
+            "$value": "320px"
+          },
+          "xs": {
+            "$type": "dimension",
+            "$value": "576px"
+          },
+          "sm": {
+            "$type": "dimension",
+            "$value": "768px"
+          },
+          "md": {
+            "$type": "dimension",
+            "$value": "992px"
+          },
+          "lg": {
+            "$type": "dimension",
+            "$value": "1200px"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "1440px"
+          }
+        }
+      },
+      "sizing": {
+        "100": {
+          "$type": "sizing",
+          "$value": "100"
+        },
+        "200": {
+          "$type": "sizing",
+          "$value": "200"
+        },
+        "300": {
+          "$type": "sizing",
+          "$value": "300"
+        },
+        "1rem": {
+          "$type": "sizing",
+          "$value": "1rem"
+        },
+        "2rem": {
+          "$type": "sizing",
+          "$value": "2rem"
+        },
+        "1em": {
+          "$type": "sizing",
+          "$value": "1em"
+        }
+      },
+      "unsplash": {
+        "unsplash": {
+          "image": {
+            "1": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1762487283482-840943bd5180?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "2": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1762211640352-2fe3f7a30f10?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            "3": {
+              "$type": "asset",
+              "$value": "https://plus.unsplash.com/premium_photo-1693225745961-9b7055e92562?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+          }
+        }
+      },
+      "letter-spacing": {
+        "0": {
+          "$type": "letterSpacing",
+          "$value": "0"
+        },
+        "-2": {
+          "$type": "letterSpacing",
+          "$value": "-2%"
+        },
+        "1px": {
+          "$type": "letterSpacing",
+          "$value": "1px"
+        },
+        "1rem": {
+          "$type": "letterSpacing",
+          "$value": "1rem",
+          "$description": "16px"
+        }
+      },
+      "text-case": {
+        "null": {
+          "$type": "textCase",
+          "$value": "null"
+        },
+        "uppercase": {
+          "$type": "textCase",
+          "$value": "uppercase"
+        },
+        "lowercase": {
+          "$type": "textCase",
+          "$value": "lowercase"
+        },
+        "capitalize": {
+          "$type": "textCase",
+          "$value": "capitalize"
+        }
+      },
+      "boolean": {
+        "true": {
+          "$type": "boolean",
+          "$value": "true"
+        },
+        "false": {
+          "$type": "boolean",
+          "$value": "false"
+        }
+      },
+      "number": {
+        "16": {
+          "$type": "number",
+          "$value": "16"
+        },
+        "90": {
+          "$type": "number",
+          "$value": "-90"
+        },
+        "300": {
+          "$type": "number",
+          "$value": "300"
+        }
+      },
+      "bezienswaardigheden": {
+        "nederland": {
+          "image": {
+            "1": {
+              "$type": "asset",
+              "$value": "https://cdn-thumbs.ohmyprints.net/1/3a12221b445d14f242c71aa36bc710b3/817x600/thumbnail/fit.jpg"
+            },
+            "2": {
+              "$type": "asset",
+              "$value": "https://images.unsplash.com/photo-1587550495462-1ef563e9bf22?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmVkZXJsYW5kJTIwa2FzdGVlbHxlbnwwfHwwfHx8MA%3D%3D"
+            },
+            "3": {
+              "$type": "asset",
+              "$value": "https://images.unsplash.com/photo-1575992127931-7e6f0f6a96c5?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+          }
+        }
+      }
+    },
+    "mln": {
+      "color": {
+        "lintblauw": {
+          "100": {
+            "$type": "color",
+            "$value": "#B8C6D5"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#738EAB"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#154273"
+          }
+        },
+        "zwart": {
+          "500": {
+            "$type": "color",
+            "$value": "#000"
+          }
+        },
+        "wit": {
+          "500": {
+            "$type": "color",
+            "$value": "#fff"
+          }
+        },
+        "grijs": {
+          "100": {
+            "$type": "color",
+            "$value": "#F1F5F9"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#CBD5E1"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#64748B"
+          }
+        },
+        "donkergroen": {
+          "100": {
+            "$type": "color",
+            "$value": "#BDCDC2"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#7D9B87"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#275937"
+          }
+        },
+        "donkerpaars": {
+          "100": {
+            "$type": "color",
+            "$value": "#C6B8CE"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#8D729F"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#42145F"
+          }
+        },
+        "donkerblauw": {
+          "100": {
+            "$type": "color",
+            "$value": "#B2D1E1"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#66A4C3"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#01689B"
+          }
+        },
+        "donkerbruin": {
+          "100": {
+            "$type": "color",
+            "$value": "#D1C1BD"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#A3847D"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#673327"
+          }
+        },
+        "donkergeel": {
+          "100": {
+            "$type": "color",
+            "$value": "#FEE9B7"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#FDD370"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#FFB612"
+          }
+        },
+        "rood": {
+          "100": {
+            "$type": "color",
+            "$value": "#F2BFBB"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#E67F78"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#D52B1E"
+          }
+        },
+        "oranje": {
+          "100": {
+            "$type": "color",
+            "$value": "#F6D4B2"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#EDA966"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#E17000"
+          }
+        }
+      }
+    }
+  },
+  "molen": {
+    "mln": {
+      "color": {
+        "lintblauw": {
+          "100": {
+            "$type": "color",
+            "$value": "#B8C6D5"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#738EAB"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#154273"
+          }
+        },
+        "zwart": {
+          "500": {
+            "$type": "color",
+            "$value": "#000"
+          }
+        },
+        "wit": {
+          "500": {
+            "$type": "color",
+            "$value": "#fff"
+          }
+        },
+        "grijs": {
+          "100": {
+            "$type": "color",
+            "$value": "#F1F5F9"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#CBD5E1"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#64748B"
+          }
+        },
+        "donkergroen": {
+          "100": {
+            "$type": "color",
+            "$value": "#BDCDC2"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#7D9B87"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#275937"
+          }
+        },
+        "donkerpaars": {
+          "100": {
+            "$type": "color",
+            "$value": "#C6B8CE"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#8D729F"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#42145F"
+          }
+        },
+        "donkerblauw": {
+          "100": {
+            "$type": "color",
+            "$value": "#B2D1E1"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#66A4C3"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#01689B"
+          }
+        },
+        "donkerbruin": {
+          "100": {
+            "$type": "color",
+            "$value": "#D1C1BD"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#A3847D"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#673327"
+          }
+        },
+        "donkergeel": {
+          "100": {
+            "$type": "color",
+            "$value": "#FEE9B7"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#FDD370"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#FFB612"
+          }
+        },
+        "rood": {
+          "100": {
+            "$type": "color",
+            "$value": "#F2BFBB"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#E67F78"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#D52B1E"
+          }
+        },
+        "oranje": {
+          "100": {
+            "$type": "color",
+            "$value": "#F6D4B2"
+          },
+          "300": {
+            "$type": "color",
+            "$value": "#EDA966"
+          },
+          "500": {
+            "$type": "color",
+            "$value": "#E17000"
+          }
+        }
+      },
+      "typography": {
+        "font-family": {
+          "rijkssans": {
+            "$type": "fontFamilies",
+            "$value": "RijksSans, Arial, Verdana, sans-serif"
+          }
+        },
+        "font-size": {
+          "xs": {
+            "$type": "typography",
+            "$value": {
+              "fontFamily": "RijksSans, Arial, Verdana, sans-serif",
+              "fontWeight": "0.75rem"
+            }
+          }
+        },
+        "line-height": {
+          "xs": {
+            "$type": "lineHeights",
+            "$value": "100%"
+          },
+          "sm": {
+            "$type": "lineHeights",
+            "$value": "125%"
+          },
+          "md": {
+            "$type": "lineHeights",
+            "$value": "150%"
+          },
+          "lg": {
+            "$type": "lineHeights",
+            "$value": "200%"
+          }
+        },
+        " text-decoration": {
+          "null": {
+            "$type": "textDecoration",
+            "$value": "null"
+          },
+          "underline": {
+            "$type": "textDecoration",
+            "$value": "underline"
+          },
+          "strikethrough": {
+            "$type": "textDecoration",
+            "$value": "strikethrough"
+          }
+        },
+        "text": {
+          "welcome": {
+            "$type": "text",
+            "$value": "👋 Welcome back, {mln.typography.text.jan-smit}!"
+          },
+          "bye": {
+            "$type": "text",
+            "$value": "👋 Bye, {mln.typography.text.jan-smit}!"
+          },
+          "jan-smit": {
+            "$type": "text",
+            "$value": "Jan Smit"
+          },
+          "annemieke-anders": {
+            "$type": "text",
+            "$value": "Annemieke Anders"
+          }
+        }
+      },
+      "fontsize": {
+        "16": {
+          "$type": "fontSizes",
+          "$value": "16"
+        },
+        "20": {
+          "$type": "fontSizes",
+          "$value": "20"
+        },
+        "24": {
+          "$type": "fontSizes",
+          "$value": "24"
+        },
+        "30": {
+          "$type": "fontSizes",
+          "$value": "30"
+        },
+        "32": {
+          "$type": "fontSizes",
+          "$value": "32"
+        },
+        "36": {
+          "$type": "fontSizes",
+          "$value": "36"
+        },
+        "40": {
+          "$type": "fontSizes",
+          "$value": "40"
+        },
+        "46": {
+          "$type": "fontSizes",
+          "$value": "46"
+        },
+        "64": {
+          "$type": "fontSizes",
+          "$value": "64"
+        }
+      },
+      "spacing": {
+        "1": {
+          "$type": "spacing",
+          "$value": "1"
+        },
+        "5": {
+          "$type": "spacing",
+          "$value": "5"
+        },
+        "20": {
+          "$type": "spacing",
+          "$value": "20"
+        },
+        "30": {
+          "$type": "spacing",
+          "$value": "30"
+        },
+        "50": {
+          "$type": "spacing",
+          "$value": "50"
+        }
+      },
+      "borderradius": {
+        "1": {
+          "$type": "borderRadius",
+          "$value": "1"
+        },
+        "2": {
+          "$type": "borderRadius",
+          "$value": "2"
+        },
+        "3": {
+          "$type": "borderRadius",
+          "$value": "3"
+        },
+        "5": {
+          "$type": "borderRadius",
+          "$value": "5"
+        },
+        "10": {
+          "$type": "borderRadius",
+          "$value": "10"
+        },
+        "15": {
+          "$type": "borderRadius",
+          "$value": "15"
+        },
+        "20": {
+          "$type": "borderRadius",
+          "$value": "20"
+        },
+        "30": {
+          "$type": "borderRadius",
+          "$value": "30"
+        },
+        "40": {
+          "$type": "borderRadius",
+          "$value": "40"
+        },
+        "50": {
+          "$type": "borderRadius",
+          "$value": "50"
+        },
+        "80": {
+          "$type": "borderRadius",
+          "$value": "80"
+        },
+        "100": {
+          "$type": "borderRadius",
+          "$value": "100"
+        },
+        "150": {
+          "$type": "borderRadius",
+          "$value": "150"
+        }
+      },
+      "fontweight": {
+        "100": {
+          "$type": "fontWeights",
+          "$value": "100"
+        },
+        "200": {
+          "$type": "fontWeights",
+          "$value": "200"
+        },
+        "300": {
+          "$type": "fontWeights",
+          "$value": "300"
+        },
+        "400": {
+          "$type": "fontWeights",
+          "$value": "400"
+        },
+        "500": {
+          "$type": "fontWeights",
+          "$value": "500"
+        },
+        "600": {
+          "$type": "fontWeights",
+          "$value": "600"
+        },
+        "700": {
+          "$type": "fontWeights",
+          "$value": "700"
+        }
+      },
+      "borderWidth": {
+        "$type": "borderWidth",
+        "$value": "4"
+      },
+      "border": {
+        "$type": "border",
+        "$value": {
+          "color": "#154273",
+          "width": "10",
+          "style": "solid"
+        }
+      },
+      "opacity0,5": {
+        "$type": "opacity",
+        "$value": "0.5"
+      },
+      "boxschaduw": {
+        "inner100": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "10",
+            "y": "5",
+            "blur": "100",
+            "spread": "2",
+            "color": "#000000",
+            "type": "innerShadow"
+          }
+        },
+        "inner50": {
+          "$type": "boxShadow",
+          "$value": {
+            "x": "10",
+            "y": "5",
+            "blur": "10",
             "spread": "2",
             "color": "#000000",
             "type": "innerShadow"
@@ -592,7 +1324,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "brand"
+      "brand",
+      "molen"
     ]
   }
 }
